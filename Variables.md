@@ -18,6 +18,10 @@ int age = 30;
 float temperature = 36.6f; 
 char initial = 'A';
 double pi = 3.141519265359d;
+bool loginStatus = false;
+bool light_Is_On = true;
+
+
 
 # doubles and floats
 
@@ -49,4 +53,15 @@ int main() {
     std::string s2 = "Hello again";  // Method 2 style (still works even with 'using namespace')
     return 0;
 }
+```
+
+# Booleans
+A boolean only has two possible values -- either **true** or **false**. You assert them using the keyword `bool` followed by the name of the variable.
+
+When using cout to print the value, true evaluates to a 1 and false evaluates to 0. Booleans are essential in conditional logic.
+
+Example:
+```
+bool variable_true = true;
+bool variable_false = false;
 ```
