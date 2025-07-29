@@ -70,4 +70,3 @@ bool variable_false = false;
 
 a char is a single character. 
 you can initialize one by using the ``char`` keyword. For Example, ``char char1 = 'h';`` You typically enclose them with a single quote, `'{character}`. They work the same as characters for exmaple in a word doc, each punctuation, letter, space, etc is one. 
-
