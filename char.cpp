@@ -15,8 +15,3 @@ int char_return() {
     std::cout << "initial = '" << initial << "'";
     return 0;
 }
-
-
-int main() {
-    char_return();
-}
