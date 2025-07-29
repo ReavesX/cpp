@@ -70,3 +70,13 @@ bool variable_false = false;
 
 a char is a single character. 
 you can initialize one by using the ``char`` keyword. For Example, ``char char1 = 'h';`` You typically enclose them with a single quote, `'{character}`. They work the same as characters for exmaple in a word doc, each punctuation, letter, space, etc is one. 
+
+
+# Constants
+
+Constants are a special type of variable, once iniitalized they are unable to be changed. for example if you were to declare a constant using `const int` where the value of whatever variable you set was 100, it would be immutable 
+
+for example if you have a max value, you might do the following
+``const int maxValue = 100;`` 
+
+trying to change the constant value will be met with an error. 
