@@ -60,3 +60,23 @@ result = 10 % 3 ; // stores a result of 1
 double result = fmod(5.2, 2.0);
 // result is 1.2
 ```
+
+# Increment and Decrement
+
+- Increment and Decrement operators are used to decrease or increase a variable by 1.
+- The increment operator is represented by `++` and the decrement operator is represented by `--`
+- For example:
+```
+
+int count = 5;
+count++; // count is now 6
+
+```
+
+- To decrement you would do the following.
+```
+
+int value = 10;
+count--; // count is now 9
+
+```
