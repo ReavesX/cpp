@@ -49,3 +49,26 @@ or
 double price = 19.99d;
 int priceRounded = (int) price;
 ```
+
+# Type Casting Part 2:
+- You can convert numbers to strings using the standard namespace
+```
+int number = 789;
+bool isValid = true;
+string text1 = to_string(number);
+string text2 = isValid ? "true : false;
+```
+- when you convert doubles like this, it will show 6 decimal places by default. 
+- To convert strings to different types you can use something like the `String to Integer`, `String to Double` methods, like the following.
+
+``` 
+string numberText = "123";
+int num = stoi (numberText);
+```
+or 
+```
+string numText = "123.456"
+double decimal = stod(numText);
+```
+
+- If you try to convert letters to an integer or double an error will be thrown.
